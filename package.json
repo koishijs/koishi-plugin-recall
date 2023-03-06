@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-recall",
-  "version": "4.0.1",
-  "description": "Forward plugin for Koishi",
+  "version": "1.3.0",
+  "description": "Recall plugin for Koishi",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -24,14 +24,13 @@
     "chatbot",
     "koishi",
     "plugin",
-    "relay",
     "recall"
   ],
   "koishi": {
     "browser": true,
     "description": {
-      "en": "Forward messages across channels",
-      "zh": "在不同的频道间转发消息"
+      "en": "Recall messages",
+      "zh": "撤回已发送的消息"
     },
     "locales": [
       "zh"
