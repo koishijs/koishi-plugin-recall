@@ -3,7 +3,7 @@
 [![Codecov](https://img.shields.io/codecov/c/recall/koishijs/koishi-plugin-recall?style=flat-square)](https://codecov.io/gh/koishijs/koishi-plugin-recall)
 [![npm](https://img.shields.io/npm/v/koishi-plugin-recall?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-recall)
 
-在不同的频道间转发消息。
+撤回已发送的消息。
 
 ## 文档
 
