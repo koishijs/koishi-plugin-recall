@@ -15,6 +15,7 @@ app.plugin(recall)
 const client = app.mock.client('123', '456')
 
 before(() => app.start())
+after(() => app.stop())
 
 describe('koishi-plugin-recall', () => {
   it('basic support', async () => {

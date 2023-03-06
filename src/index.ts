@@ -1,5 +1,4 @@
 import { Bot, Context, Dict, remove, Schema, sleep, Time } from 'koishi'
-import zh from './locales/zh.yml'
 
 export interface Config {
   timeout?: number
@@ -13,7 +12,7 @@ export const name = 'recall'
 
 export function apply(ctx: Context, { timeout }: Config) {
   const logger = ctx.logger('recall')
-  ctx.i18n.define('zh', zh)
+  ctx.i18n.define('zh', require('./locales/zh-CN'))
 
   ctx = ctx.guild()
   const recent: Dict<string[]> = {}
